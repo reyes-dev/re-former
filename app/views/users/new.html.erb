@@ -19,6 +19,7 @@
 <%#= submit_tag %>
 <%# end %>
 
+
 <%= form_with model: @user do |form| %>
   <%= form.label :email, "Email:" %>
   <%= form.email_field :email, placeholder: 'example@example.com' %>
